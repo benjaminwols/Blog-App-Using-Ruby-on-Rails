@@ -5,6 +5,9 @@
 $navbar-default-bg: black;
 @import "bootstrap-sprockets";
 @import "bootstrap";
+body {
+    padding-bottom: 25vh;
+}
 #logo {
  float: left;
  font-size: 1.7em;
