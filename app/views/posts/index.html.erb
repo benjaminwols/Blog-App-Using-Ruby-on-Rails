@@ -26,3 +26,14 @@
  <% end %>
 <% end %>
 
+
+<div class="row">
+  <div class="col-xs-8 col-xs-offset-2">
+    <hr />
+    <%= 
+      link_to 'Export all comments to CSV', comments_export_path, 
+        class: "btn btn-primary pull-right", id: "download-csv-export-button"
+    %>
+  </div>
+</div>
+
