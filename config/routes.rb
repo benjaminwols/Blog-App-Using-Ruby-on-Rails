@@ -12,4 +12,8 @@ Rails.application.routes.draw do
   resources :posts do
     resources :comments
   end
+
+  namespace :export do
+    resources :comments, only: :index
+  end
 end

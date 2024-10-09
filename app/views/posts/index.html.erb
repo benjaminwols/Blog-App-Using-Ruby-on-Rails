@@ -5,6 +5,12 @@
 
 <h1 align="center">Listing all articles</h1>
 
+<div class="row" style="margin-bottom: 12px;">
+  <div class="col-md-4 col-xs-8 col-xs-offset-2">
+    <%= link_to "Export", export_comments_path(format: 'csv'), class: "btn btn-primary" %>
+  </div>
+</div>
+
 <% @posts.each do |post| %>
   <%unless post.archived?%>
  <div class="row">
