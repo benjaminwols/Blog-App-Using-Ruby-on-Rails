@@ -1,11 +1,13 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  author: MyString
-  body: MyText
+  author: Author
+  body: Body
   post: one
+  status: public
 
 two:
   author: MyString
   body: MyText
   post: two
+  status: private
